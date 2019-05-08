@@ -1,0 +1,99 @@
+.fullscreen-bg {
+  background: url("") 50% 0px no-repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #6a6a6a;
+}
+
+.logo-font {
+  font-family: "Helvetica Neue", Helvetica, cursive, sans-serif;
+  font-weight: 100;
+  font-size: 36px;
+}
+
+.margin-clear {
+  margin-top: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+    font-size: 18px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+.pb-60 {
+  padding-bottom: 60px;
+}
+
+.pb-80 {
+  padding-bottom: 80px;
+}
+
+.social-links li {
+  display: inline-block;
+  margin: 0px 6px 0px 6px;
+}
+
+.social-links.animated-effect-1 li.instagram a:hover {
+  border-color: #d93075;
+}
+
+.social-links.square li a,
+.square {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.social-links:not(.animated-effect-1) li.instagram a:hover,
+.colored.social-links li.instagram a,
+.social-links.animated-effect-1 li.instagram a:after,
+.btn.instagram {
+  background-color: #d93075;
+  border-color: #d93075;
+  color: #ffffff;
+}
+
+
+img {
+    display: block;
+    margin: auto;
+    width: 400px;
+}
+
+.dark-translucent-bg:after {
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+
+
+/* Small devices (tablets, phones less than 767px) */
+@media (max-width: 767px) {
+    img {
+    width: 90%;
+  }
+.pb-60 {
+    padding-bottom: 30px;
+  }
+}
+
+
+
+
